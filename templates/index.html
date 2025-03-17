@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ian Clarke</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Ian Clarke</h1>
+    </header>
+    <main>
+        <h2 class="section-title">About Me</h2>
+        <section id="about" class="section-box">
+            <p>I am a first-year Computer Science student at the University of Victoria. I have been programming in Python for over five years, focusing on automation projects that streamline workflows and enhance efficiency. I enjoy building tools that solve real-world problems and experimenting with new technologies to expand my skill set. My passion for programming drives me to continuously improve and take on new challenges in software development.</p>
+        </section>
+        
+        <h2 class="section-title">Technical Projects</h2>
+        <section id="projects" class="section-box">
+            <h3><a href="https://example.com" target="_blank">In-Game Item Price Prediction for Dark and Darker</a></h3>
+            <ul>
+                <li>Developed an automated item price prediction system for the video game "Dark and Darker."</li>
+                <li>Trained machine learning models using Jupyter and scikit-learn by capturing network data with PyShark and decoding it with Protobuf, tracking over 1 million items.</li>
+                <li>Built a web GUI using Flask, HTML, CSS, and JavaScript, enabling users to submit a form and retrieve accurate price predictions.</li>
+                <li>Integrated image recognition into the web GUI with pytesseract, allowing users to upload item images instead of manually entering data.</li>
+            </ul>
+            <img src="{{ url_for('static', filename='dark_prediction.jpg') }}" alt="In-Game Item Price Prediction" class="project-image">
+        </section>
+        
+        <h2 class="section-title">Contact</h2>
+        <section id="contact" class="section-box">
+            <p>Email: <a href="mailto:ian@iansolutions.xyz">ian@iansolutions.xyz</a></p>
+            <p>Phone: <a href="tel:+12506506393">+1 (250) 650-6393</a></p>
+            <p>GitHub: <a href="#">https://github.com/ian2102</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 iansolutions.xyz. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
