@@ -62,7 +62,3 @@ Check out my portfolio at [Iansolutions.xyz](http://iansolutions.xyz).
 - Add a contact form for direct inquiries.
 - Integrate additional features like blogs or a job board.
 - Improve design and responsiveness for mobile devices.
-
-## License
-
-This project is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for more details.
