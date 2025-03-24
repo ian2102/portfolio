@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-This portfolio is a simple web application developed using **Flask**, a lightweight Python web framework. The app features sections showcasing my skills, projects, and work. It is hosted on an old laptop that was repurposed with a fresh **Linux** installation and now serves as a personal home server.
+This portfolio is a simple web application developed using **Flask**, a lightweight Python web framework. The app features sections showcasing my skills, projects, and work.
 
 ## Features
 
@@ -56,11 +56,6 @@ To run this portfolio locally, follow these steps:
 
 ## Visit
 Check out my portfolio at [Iansolutions.xyz](http://iansolutions.xyz).
-
-## Images
-
-Here is an image of the old labtop where the portfolio is hosted:
-![Home Server](home_server.png)
 
 A snapshot of my portfolio:
 ![Portfolio](portfolio.png)
