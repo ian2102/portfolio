@@ -19,15 +19,26 @@
         <h2 class="section-title">Technical Projects</h2>
         <section id="projects" class="section-box">
             <h3><a href="https://github.com/ian2102/dad-price-prediction" target="_blank">In-Game Item Price Prediction for Dark and Darker</a></h3>
-            <ul>
-                <li>Developed an automated item price prediction system for the video game "Dark and Darker."</li>
-                <li>Trained machine learning models using Jupyter and scikit-learn by capturing network data with PyShark and decoding it with Protobuf, tracking over 1 million items.</li>
-                <li>Built a web GUI using Flask, HTML, CSS, and JavaScript, enabling users to submit a form and retrieve accurate price predictions.</li>
-                <li>Integrated image recognition into the web GUI with pytesseract, allowing users to upload item images instead of manually entering data.</li>
-            </ul>
+            <p>My latest project helps Dark and Darker players accurately estimate the value of their in-game items using machine learning. In the game's player-driven marketplace, item prices vary based on unique attributes, making manual price-checking tedious and error-prone. To solve this, I captured over 1 million marketplace listings by analyzing network traffic, then trained a Random Forest Regressor to predict item prices. I also built a web interface that allows users to upload a screenshot of their item; using a custom-trained OCR (PyTesseract) on the game’s font, the system extracts item data, parses its attributes, and returns an instant price estimate.</p>
+            <h4>In-Game Item Price Prediction</h4>
             <img src="{{ url_for('static', filename='dark_prediction.jpg') }}" alt="In-Game Item Price Prediction" class="project-image">
+            <h4>Item Image</h4>
+            <img src="{{ url_for('static', filename='item.jpg') }}" alt="Item Image" class="project-image" style="max-width: 50%;">
         </section>
         
+        <section id="projects" class="section-box">
+            <h3><a href="https://github.com/Beelzebub2/DnDTools" target="_blank">Stash Organizer and Character Search Engine for Dark and Darker</a></h3>
+            <p>This is an ongoing project with official support from Ironmace, the developers of Dark and Darker.
+                The tool is designed to help players organize and manage their in-game storage, known as “stashes.” In Dark and Darker, players collect various loot such as weapons, armor, and consumables which are stored across multiple stash pages. As the stash grows, it becomes harder to keep track of where everything is. This tool lets players search for specific items across all stash pages and automatically sort them, saving time and reducing clutter.</p>
+            <p>Website:</p>
+            <p><a href="https://dndtools.me/" target="_blank">https://dndtools.me/</a></p>
+            <h4>Stash Organizer Demo</h4>
+            <video class="project-video" controls autoplay muted loop>
+                <source src="{{ url_for('static', filename='stash_demo.mp4') }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
         <h2 class="section-title">Contact & Socials</h2>
         <section id="contact" class="section-box">
             <p>Email: <a href="mailto:ian@iansolutions.xyz">ian@iansolutions.xyz</a></p>
